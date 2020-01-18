@@ -20,7 +20,7 @@ import org.openqa.selenium.interactions.Actions;
 
 public class CrazySale extends GetData {
 	public static void main(String[] args) throws Throwable {
-		System.setProperty("webdriver.chrome.driver","D:\\Tamizhbharathi\\My_Workspace\\CrazySales\\driver\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver","D:\\Tamizhbharathi\\My_Workspace\\CrazySalesEcommerce\\driver\\chromedriver.exe");
 		WebDriver driver = new ChromeDriver();
 		driver.get("https://www.crazysales.com.au/");
 		driver.manage().window().maximize();
